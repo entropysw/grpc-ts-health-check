@@ -1,0 +1,23 @@
+# Eslint
+.eslintcache
+
+# Jest
+coverage
+
+# macOS
+.DS_Store
+
+# Output
+dist
+
+# Yarn (https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+.yarn/*
+!.yarn/**/*.zip
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+node_modules
