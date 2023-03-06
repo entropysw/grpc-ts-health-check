@@ -7,7 +7,7 @@ import {
   HealthCheckResponse,
 } from './proto/grpc/health/v1/HealthCheckResponse';
 
-export class GrpcHealthCheck {
+class GrpcHealthCheck {
   private watchStatusMap: { [key: string]: ServingStatus } = {};
   private watchErrorMap: { [key: string]: Error } = {};
 
@@ -64,3 +64,5 @@ export class GrpcHealthCheck {
     }, 1000);
   }
 }
+
+export { GrpcHealthCheck, HealthCheckRequest, HealthCheckResponse, ServingStatus };
