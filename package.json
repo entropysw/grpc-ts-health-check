@@ -1,5 +1,5 @@
 {
-  "name": "@pmabres/grpc-ts-health-check",
+  "name": "@entropysw/grpc-ts-health-check",
   "version": "3.1.1",
   "description": "An implementation of gRPC health checks, written in typescript.",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "repository": "https://github.com/pmabres/grpc-ts-health-check.git",
+  "repository": "https://github.com/entropysw/grpc-ts-health-check.git",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json && cp src/proto/health.proto dist/",
     "gen:proto": "yarn proto-loader-gen-types --arrays --objects --keepCase --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=src/proto/ src/proto/health.proto",

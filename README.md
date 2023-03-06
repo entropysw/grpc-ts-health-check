@@ -4,8 +4,8 @@ Note: This is a fork from this public repo: https://github.com/nicolaspearson/ka
 I've only modified the dependencies to be fixed, all credits go to the Author: https://github.com/nicolaspearson
 
 [![License][license-image]][license-url]
-[![Current Version](https://img.shields.io/npm/v/@pmabres/grpc-ts-health-check.svg)](https://www.npmjs.com/package/@pmabres/grpc-ts-health-check)
-[![npm](https://img.shields.io/npm/dw/@pmabres/grpc-ts-health-check.svg)](https://www.npmjs.com/package/@pmabres/grpc-ts-health-check)
+[![Current Version](https://img.shields.io/npm/v/@entropysw/grpc-ts-health-check.svg)](https://www.npmjs.com/package/@entropysw/grpc-ts-health-check)
+[![npm](https://img.shields.io/npm/dw/@entropysw/grpc-ts-health-check.svg)](https://www.npmjs.com/package/@entropysw/grpc-ts-health-check)
 
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
@@ -17,7 +17,7 @@ It is assumed that you are using the `@grpc/grpc-js` library.
 ## Installation
 
 ```sh
-yarn add @pmabres/grpc-ts-health-check
+yarn add @entropysw/grpc-ts-health-check
 ```
 
 Install the `@grpc/grpc-js` library:
